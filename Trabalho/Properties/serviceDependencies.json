@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "secrets1": {
+      "type": "secrets"
+    },
+    "mssql1": {
+      "type": "mssql",
+      "connectionId": "ConnectionStrings:Server=(localdb)::mssqllocaldb;Database=Trabalho;Trusted_Connection=True;MultipleActiveResultSets=true"
+    },
+    "mssql2": {
+      "type": "mssql",
+      "connectionId": "ConnectionStrings:TrabalhoContextConnection"
+    }
+  }
+}

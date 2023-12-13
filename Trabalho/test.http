@@ -1,0 +1,25 @@
+POST http://localhost:5000/client
+Content-Type: application/json
+
+{
+    "Name": "Erick Douglas",
+    "Cidade": "Curitiba"
+}
+
+
+POST http://localhost:5000/game
+Content-Type: application/json
+
+{
+  "Name": "PES 23",
+  "IsRented": false,
+  "Genre": "Esporte"
+}
+
+POST http://localhost:5000/rental
+Content-Type: application/json
+
+{
+   "clientId": 1,
+   "gameId": 2
+}
